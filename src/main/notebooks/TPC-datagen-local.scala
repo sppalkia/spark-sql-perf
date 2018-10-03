@@ -3,7 +3,7 @@
 val benchmarks = Seq("TPCH") // Options: TCPDS", "TPCH"
 val scaleFactors = Seq("10") // "1", "10", "100", "1000", "10000" list of scale factors to generate and import
 
-val baseLocation = s"/Users/alex.behm/spark-sql-perf/tpc" // S3 bucket, blob, or local root path
+val baseLocation = s"/mnt/localssd/tpc"
 val baseDatagenFolder = "/tmp"  // usually /tmp if enough space is available for datagen files
 
 // Output file formats
